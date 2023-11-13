@@ -22,10 +22,16 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
-        sans: ['var(--font-space-grotesk)', ...fontFamily.sans],
+        // sans: ['var(--font-space-grotesk)', ...fontFamily.sans],
+        // sans: ['lato', ...fontFamily.sans],
+        // sans: ['Montserrat', ...fontFamily.sans],
+        // sans: ['Lora', ...fontFamily.sans],
+        // sans: ['var(--font-Playfair Display)', ...fontFamily.sans],
+        // sans: ['PT Serif', ...fontFamily.sans],
+        sans: ['Merriweather', ...fontFamily.sans],
       },
       colors: {
-        primary: colors.pink,
+        primary: colors.violet,
         gray: colors.gray,
       },
       typography: ({ theme }) => ({
